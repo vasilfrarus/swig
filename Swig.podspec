@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*{h,m}', 'Pod/SoundSwitch/*{h,m}'
   s.preserve_paths = 'Pod/Classes/**/*{h,m}', 'Pod/SoundSwitch/*{h,m}'
 
-  s.dependency 'AFNetworking/Reachability', :git => 'https://github.com/vasilfrarus/AFNetworking.git'
+  s.dependency 'AFNetworking/Reachability'
   s.dependency 'libextobjc', '~> 0.4'
   s.dependency 'pjsip-ios', '~> 0.1'
   s.dependency 'CocoaLumberjack', '2.0.0-rc'
